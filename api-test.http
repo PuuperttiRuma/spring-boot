@@ -1,0 +1,5 @@
+### Test GET
+GET http://localhost:8080/
+
+### Test GET
+GET http://localhost:8080/software-engineers
