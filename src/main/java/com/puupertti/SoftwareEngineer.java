@@ -1,8 +1,14 @@
 package com.puupertti;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
 import java.util.Objects;
 
+@Entity
 public class SoftwareEngineer {
+
+    @Id
     public Integer id;
     public String name;
     public String techStack;
